@@ -1,5 +1,6 @@
 package com.example.gin.scanqrcode;
 
+
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -56,4 +57,12 @@ public class MainActivity extends AppCompatActivity {
     private void alert (String msg){
         Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_LONG).show();
     }
+
+    public void loading(View view){
+
+    }
+
+
+
+
 }
